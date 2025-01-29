@@ -1,14 +1,16 @@
-// import logo from './logo.svg';
-import './App.css';
 
-import PageAccueil from './components/pageAccueil';
+import './App.css';
+import PageAccueil from './components/pageaccueil/pageAccueil';
+import PageTarif from './components/pagetarif/pageTarif';
 
 function App() {
   return (
-    
-      <PageAccueil>
-      
-      </PageAccueil>
+    <div>
+
+   
+      <PageAccueil></PageAccueil> 
+     
+      </div>
   
   );
 }

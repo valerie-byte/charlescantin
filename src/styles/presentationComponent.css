@@ -1,0 +1,15 @@
+.containerPresentationComponent {
+   position:relative;
+   width:100vw;
+   height:100vh;
+   background: url("../images/img_page_accueil.jpg") center/100% no-repeat;
+}
+
+#titleCharlesCantin {  
+    position:absolute;
+    top:50%;
+    left:40%;
+    color:red;
+    font-family: "alkalami", serif;
+    font-size: 40px;
+ }

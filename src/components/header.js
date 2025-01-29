@@ -12,7 +12,7 @@ export default function Header () {
             <h1 className='allerta-regular'>Tarif et prestations</h1>
             <h1 className='allerta-regular'>Contact</h1>
             <img src={iconfacebook} alt='logo-facebook'></img>
-            <img src={iconInstagram} alt='logo-instagram'></img>
+            <img src={iconInstagram} alt='logo-instagram'></img> 
         </header>
     )
 }
