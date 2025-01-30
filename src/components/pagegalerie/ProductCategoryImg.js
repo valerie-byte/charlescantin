@@ -45,4 +45,5 @@ function ProductCategoryImg () {
             </div>
         </div>
     )
-}
+};
+

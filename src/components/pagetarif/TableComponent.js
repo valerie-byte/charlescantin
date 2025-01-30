@@ -1,14 +1,13 @@
-import TableTitle from "./TableTitle";
-// import TableDescription from "./Tabledescription";
 
-
-
+import TableDescription from "./Tabledescription";
+import '../../styles/tableComponent.css'
 
 function TableComponent () {
     return(
         <div>
-            <TableTitle></TableTitle>
-            {/* <TableDescription></TableDescription> */}
+            <h1 id ="titletablecomponent">Tarif et Prestations</h1>
+             <TableDescription></TableDescription>  
+           
         </div>
     )
 }
