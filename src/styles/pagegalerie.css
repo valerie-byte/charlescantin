@@ -1,0 +1,33 @@
+#presentatPhoto {
+    flex-direction: row;
+}
+#containerImg, #containerGrossesse, #containerMariage, #containerBaby, #containerFamille, #containerBapt, #containerCouple {
+    display: flex;
+    flex-direction: column;
+}
+
+#containerImgGrossesse,#containerImgMariage, #containerImgBaby,#containerImgFamille, #containerImgBapt, #containerImgCouple {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}   
+
+img {
+    /* width: 150px;*/
+    height: 150px;
+}
+
+h1 {
+    font-size: 40px;
+    color:red;
+    font-family: "alkalami", sans-serif;
+}
+
+
+#listCategory {
+    font-family: "carme", sans-serif;
+    font-size: 24px;
+    color:black;
+    
+    padding-top: 10px
+}

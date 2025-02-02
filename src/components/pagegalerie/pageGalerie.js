@@ -1,11 +1,14 @@
 import Header from "../header";
-import FilterdCategoryTable from "./FilterdCategoryTable";
+import '../../styles/pagegalerie.css'
+import FilterdCategoryTable from './FilterdCategoryTable'
+import ProductCategoryImg from "./ProductCategoryImg"
 
 function PageGalerie () {
     return(
-        <div>
+        <div id="presentatPhoto">
             <Header></Header>
             <FilterdCategoryTable></FilterdCategoryTable>
+            <ProductCategoryImg></ProductCategoryImg>
         </div>
 
 

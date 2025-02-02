@@ -1,11 +1,17 @@
 #titletableprestation {
     font-family: "carme", sans-serif;
     font-size: 26px;
-    color:RGB(0,4,222)
+    color:RGB(0,4,222);
+    padding-top: 30px
 }
 
 #titletableprestation>li>div {
     font-family: "carme", sans-serif;
     font-size: 24px;
     color:black;
+    padding-top: 10px
+}
+
+li {
+    padding-top:20px;
 }

@@ -2,6 +2,7 @@
 import './App.css';
 import PageAccueil from './components/pageaccueil/pageAccueil';
 import PageTarif from './components/pagetarif/pageTarif';
+import PageGalerie from './components/pagegalerie/pageGalerie'
 
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
     <div>
   
       {/* <PageAccueil></PageAccueil>  */}
-     <PageTarif></PageTarif>
+     {/* <PageTarif></PageTarif> */}
+     <PageGalerie></PageGalerie>
       </div>
   
   );
