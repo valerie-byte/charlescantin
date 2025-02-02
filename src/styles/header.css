@@ -8,9 +8,10 @@
 }
 
 .allerta-regular { 
-	 font-family: "Allerta", serif;
+	font-family: "Allerta", serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 32px;
+	color:black;
   }
   

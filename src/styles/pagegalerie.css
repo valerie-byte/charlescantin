@@ -1,6 +1,8 @@
 #presentatPhoto {
     flex-direction: row;
+    display: flex;
 }
+
 #containerImg, #containerGrossesse, #containerMariage, #containerBaby, #containerFamille, #containerBapt, #containerCouple {
     display: flex;
     flex-direction: column;
@@ -15,12 +17,15 @@
 img {
     /* width: 150px;*/
     height: 150px;
+    padding-left: 10px;
+    flex-wrap: nowrap;
 }
 
 h1 {
     font-size: 40px;
-    color:red;
+    color: black;
     font-family: "alkalami", sans-serif;
+    text-align: center;
 }
 
 

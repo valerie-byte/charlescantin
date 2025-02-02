@@ -5,10 +5,12 @@ import ProductCategoryImg from "./ProductCategoryImg"
 
 function PageGalerie () {
     return(
-        <div id="presentatPhoto">
+        <div>
             <Header></Header>
-            <FilterdCategoryTable></FilterdCategoryTable>
-            <ProductCategoryImg></ProductCategoryImg>
+            <div id="presentatPhoto">
+                <FilterdCategoryTable></FilterdCategoryTable>
+                <ProductCategoryImg></ProductCategoryImg>
+            </div>
         </div>
 
 
