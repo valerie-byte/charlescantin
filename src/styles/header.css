@@ -1,17 +1,38 @@
-.headerContainer{
-	display : flex;
-	flex-direction: row;
-	justify-content : space-evenly;
-	height : 30vh;
-	width : 100vw;
-	background-color : rgb(206,206,206);
+  .container{
+	display : flex; 
+	flex-direction: row; 
+	justify-content : start; 
+	height : 90px; 
+	width : 100vw; 
+	background-color : rgb(206,206,206); 
+}  
+
+#menuBurger {
+	height: 20px;
+	width: 20px;
+	padding-top:20px
+}
+#logoMenu {
+	height:24px;
+	width: 28px;
+	padding-top:20px
+
 }
 
-.allerta-regular { 
+#titleMenu { 
 	font-family: "Allerta", serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 32px;
+	font-size: 18px;
 	color:black;
+	padding-top:20px;
+	padding-left:15px;
+	width:88px;
+	height:31px
   }
-  
+
+  #iconMenu {
+	height:20px;
+	padding-top:20px
+  }
+   

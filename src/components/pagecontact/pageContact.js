@@ -1,8 +1,13 @@
 import Header from "../header";
+import FormComponent from "./FormComponent";
 
 function PageContact () {
     return(
-        <Header></Header>
+        <div>
+            <Header></Header>
+            <FormComponent></FormComponent>
+        </div>
+
     )
 }
 

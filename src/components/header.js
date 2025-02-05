@@ -1,18 +1,37 @@
 import logo from'../images/logo.png'
+import menu from '../images/icon_menuburger.png'
 import iconfacebook from '../images/header/logo-facebook.svg'
 import iconInstagram from '../images/header/logo-instagram.svg'
 import '../styles/header.css'
+import { Container } from 'react-bootstrap'
+// import { Nav } from 'react-bootstrap'
+import { Navbar } from 'react-bootstrap'
+// import { NavDropdown } from 'react-bootstrap'
 
 export default function Header () {
-    return(
-        <header className='headerContainer'>
-            <img src={logo} alt='mon logo'/>
-            <h1 className='allerta-regular'>Accueil</h1>
-            <h1 className='allerta-regular'>Galerie</h1>
-            <h1 className='allerta-regular'>Tarif et prestations</h1>
-            <h1 className='allerta-regular'>Contact</h1>
-            <img src={iconfacebook} alt='logo-facebook'></img>
-            <img src={iconInstagram} alt='logo-instagram'></img> 
-        </header>
+    return(        
+        <Navbar >
+            <Container className='container' >
+                <Navbar.Brand href="#">
+                    <img id="menuBurger" src={menu} alt="menu"    
+                    />
+                    </Navbar.Brand> 
+                    <Navbar.Brand href="#">
+                        <img id="logoMenu" src={logo} alt="mon logo"             
+                    />
+                    </Navbar.Brand> 
+                    <Navbar.Brand href="#" id="titleMenu">Accueil</Navbar.Brand>
+                    <Navbar.Brand href="#">
+                        <img id="iconMenu" src={iconfacebook} alt="logo-facebook"           
+                    />
+                    </Navbar.Brand> 
+                    <Navbar.Brand href="#">
+                    <img id="iconMenu" src={iconInstagram} 
+                    alt="icone instagram"
+                    />
+                    </Navbar.Brand> 
+            </Container>
+        </Navbar>
+        
     )
 }
