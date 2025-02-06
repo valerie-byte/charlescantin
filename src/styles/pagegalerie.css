@@ -1,31 +1,34 @@
-#presentatPhoto {
-    flex-direction: row;
-    display: flex;
-}
-
-#containerImg, #containerGrossesse, #containerMariage, #containerBaby, #containerFamille, #containerBapt, #containerCouple {
-    display: flex;
+.presentatPhoto {
     flex-direction: column;
-}
+    display: flex;
+    align-items: start;
+    padding-left:10px;
+  
+} 
 
 #containerImgGrossesse,#containerImgMariage, #containerImgBaby,#containerImgFamille, #containerImgBapt, #containerImgCouple {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-}   
+   
+    height:312px
+ 
+    
+}    
 
-img {
-    /* width: 50px; */
-    /* height: 50px; */
-    padding-left: 10px;
-    flex-wrap: nowrap;
-}
+.ImgGrossesse, .ImgMariage, .ImgBebe,.ImgFamille, .ImgBapteme, .ImgCouple {
+    width: 90px;  
+    height: 90px; 
+    padding-left: 10px; 
+    padding-top:10px;
+  
+} 
 
-h1 {
-    font-size: 40px;
-    color: black;
+h1.titleGalerie {
+    font-size: 20px;
+    color: #0004DE;
     font-family: "alkalami", sans-serif;
-    text-align: center;
+    text-align: start;
 }
 
 
@@ -33,6 +36,21 @@ h1 {
     font-family: "carme", sans-serif;
     font-size: 24px;
     color:black;
-    
-    padding-top: 10px
-}
+} 
+
+/* pour écran taille md 768 on affiche les 4  */
+/* @media screen and (min-width:768px){
+	
+    .container {
+        height:150px
+    }
+    #titleMenu{
+        display: flex;
+        visibility:visible;
+        justify-content : space-evenly; 
+        font-size: 32px;
+    } 
+    #titleMenuAccueil {
+        font-size: 32px;
+    } 
+     }  */

@@ -11,9 +11,9 @@ function App() {
   return (
     <div>
  
-      <PageAccueil></PageAccueil> 
+      {/* <PageAccueil></PageAccueil>  */}
      {/* <PageTarif></PageTarif> */}
-     {/* <PageGalerie></PageGalerie> */}
+     <PageGalerie></PageGalerie>
      {/* <PageContact></PageContact> */}
 
       </div>

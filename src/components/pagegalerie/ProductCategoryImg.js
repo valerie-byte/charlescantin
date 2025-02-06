@@ -27,67 +27,70 @@ import couple4 from "../../images/couple/couple4.jpg"
 // importation fichier mise en page
 import '../../styles/pagegalerie.css'
 
+import { Container } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 function ProductCategoryImg () {
     return(
-        <div id="ContainerImg">
-            <div id="containerGrossesse">
-                <h1>grossesse</h1>
-                <div id="containerImgGrossesse">
-                    <img src={grossesse1}></img>
-                    <img src={grossesse2}></img>
-                    <img src={grossesse3}></img>
-                    <img src={grossesse4}></img>
-                </div>
-            </div>
+        <Container className="presentatPhoto">
+            <Container className="presentatPhoto">
+                <h1 className='titleGalerie'>grossesse</h1>
+                <Container id="containerImgGrossesse">
+                    <img className="ImgGrossesse" src={grossesse1} alt=""></img>
+                    <img className="ImgGrossesse"  src={grossesse2} alt=""></img>
+                    <img className="ImgGrossesse"  src={grossesse3} alt=""></img>
+                    <img className="ImgGrossesse"  src={grossesse4} alt=""></img>
+                </Container>
+            </Container>
 
-            <div id="containerMariage">
-                <h1>mariage</h1>
-                <div id="containerImgMariage">
-                    <img src={mariage1}></img>
-                    <img src={mariage2}></img>
-                    <img src={mariage3}></img>
-                    <img src={mariage4}></img>
-                </div>
-            </div>
-            <div id="containerBaby">
-                <h1>bébé</h1>
-                <div id="containerImgBaby">
-                    <img src={baby1}></img>
-                    <img src={baby2}></img>
-                    <img src={baby3}></img>
-                    <img src={baby4}></img>
-                </div>
-            </div>
-            <div id="containerFamille">
-                <h1>famille</h1>
-                <div id="containerImgFamille">
-                    <img src={famille1}></img>
-                    <img src={famille2}></img>
-                    <img src={famille3}></img>
-                    <img src={famille4}></img>
-                </div>
+            <Container className="presentatPhoto">
+                <h1 className='titleGalerie'>mariage</h1>
+                <Container id="containerImgMariage">
+                    <img className="ImgMariage" src={mariage1} alt=""></img>
+                    <img className="ImgMariage" src={mariage2} alt=""></img>
+                    <img className="ImgMariage" src={mariage3} alt=""></img>
+                    <img className="ImgMariage" src={mariage4} alt=""></img>
+                </Container>
+            </Container>
+            <Container className="presentatPhoto">
+                <h1 className='titleGalerie'>bébé</h1>
+                <Container id="containerImgBaby">
+                    <img className="ImgBebe" src={baby1} alt=""></img>
+                    <img className="ImgBebe" src={baby2} alt=""></img>
+                    <img className="ImgBebe" src={baby3} alt=""></img>
+                    <img className="ImgBebe" src={baby4} alt=""></img>
+                </Container>
+            </Container>
+            <Container className="presentatPhoto">
+                <h1 className='titleGalerie'>famille</h1>
+                <Container id="containerImgFamille">
+                    <img className="ImgFamille" src={famille1} alt=""></img>
+                    <img className="ImgFamille"src={famille2} alt=""></img>
+                    <img className="ImgFamille" src={famille3} alt=""></img>
+                    <img className="ImgFamille" src={famille4} alt=""></img>
+                </Container>
 
-            </div>
-            <div id="containerBapt">
-                <h1>baptême</h1>
-                <div id="containerImgBapt">
-                    <img src={bapt1}></img>
-                    <img src={bapt2}></img>
-                    <img src={bapt3}></img>
-                    <img src={bapt4}></img>
-                </div>
-            </div>
-            <div id="containerCouple">
-                <h1>couple</h1>
-                <div id="containerImgCouple">
-                    <img src={couple1}></img>
-                    <img src={couple2}></img>
-                    <img src={couple3}></img>
-                    <img src={couple4}></img>
-                </div>
+            </Container>
+            <Container className="presentatPhoto">
+                <h1 className='titleGalerie'>baptême</h1>
+                <Container id="containerImgBapt">
+                    <img className="ImgBapteme" src={bapt1} alt=""></img>
+                    <img className="ImgBapteme" src={bapt2} alt=""></img>
+                    <img className="ImgBapteme" src={bapt3} alt=""></img>
+                    <img className="ImgBapteme" src={bapt4} alt="" ></img>
+                </Container>
+            </Container>
+            <Container className="presentatPhoto">
+                <h1 className='titleGalerie'> couple</h1>
+                <Container id="containerImgCouple">
+                    <img className="ImgCouple" src={couple1} alt=""></img>
+                    <img className="ImgCouple" src={couple2} alt=""></img>
+                    <img className="ImgCouple" src={couple3} alt=""></img>
+                    <img className="ImgCouple" src={couple4} alt=""></img>
+                </Container> 
 
-            </div>
-        </div>
+            </Container> 
+        </Container>
     )
 }
 

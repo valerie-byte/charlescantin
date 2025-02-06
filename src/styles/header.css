@@ -1,21 +1,23 @@
-  .container{
+  .containerHeader{
 	display : flex; 
 	flex-direction: row; 
-	justify-content : space-evenly; 
+	justify-content : start;
 	height : 90px; 
 	width : 100%; 
 	background-color : rgb(206,206,206); 
 }  
 
-#menuBurger {
+img.menuBurger {
 	height: 30px;
 	width: 30px;
-	padding:20px
+	padding-left:10px;
+	padding-top:20px
 }
-#logoMenu {
+img#logoMenu {
 	height:24px;
 	width: 38px;
-	padding:20px
+	padding-top:20px;
+	padding-left:10px;
 
 }
 #titleMenuAccueil {
@@ -27,21 +29,23 @@
 	padding-top:20px;
 	padding-left:10px;
 }
-#titleMenu { 
+.titleMenu { 
 	font-family: "Allerta", serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 18px;
 	color:black;
 	padding-top:20px;
-	padding-left:10px;
+	/* padding-left:10px; */
 	display:none
 	/* visibility:hidden */
   }
 
-  #iconMenu {
-	height:30px;
-	padding:20px
+  img.iconMenu {
+	height:20px;
+	padding-left:10px ;
+	padding-top:20px
+
   }
 /* pour écran taille md 768 on affiche les 4  */
  @media screen and (min-width:768px){
@@ -49,11 +53,12 @@
 .container {
 	height:150px
 }
-#titleMenu{
+.titleMenu{
 	display: flex;
 	visibility:visible;
 	justify-content : space-evenly; 
 	font-size: 32px;
+	padding-left: 10px;
 } 
 #titleMenuAccueil {
 	font-size: 32px;

@@ -4,19 +4,18 @@ import iconfacebook from '../images/header/logo-facebook.svg'
 import iconInstagram from '../images/header/logo-instagram.svg'
 import '../styles/header.css'
 import { Container } from 'react-bootstrap';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 // import { Nav } from 'react-bootstrap'
 import { Navbar } from 'react-bootstrap'
 // import { NavDropdown } from 'react-bootstrap'
 
 export default function Header () {
+    // let titleActive = "Accueil"
     return(        
         <Navbar >
-            <Container fluid="sm" className='container' >
+            <Container className='containerHeader' >
               
                 <Navbar.Brand href="#">                  
-                    <img id="menuBurger" src={menu} alt="menu"    
+                    <img className="menuBurger" src={menu} alt="menu"    
                     />
                 </Navbar.Brand> 
                 <Navbar.Brand href="#">
@@ -26,16 +25,16 @@ export default function Header () {
     
                
                 <Navbar.Brand href="#" id="titleMenuAccueil" >Accueil</Navbar.Brand>
-                <Navbar.Brand href="#" id="titleMenu" >galerie</Navbar.Brand>
-                <Navbar.Brand href="#" id="titleMenu" >tarifs et prestations</Navbar.Brand>
-                <Navbar.Brand href="#" id="titleMenu" >contact</Navbar.Brand>
+                <Navbar.Brand href="#" className="titleMenu" >galerie</Navbar.Brand>
+                <Navbar.Brand href="#" className="titleMenu" >tarifs et prestations</Navbar.Brand>
+                <Navbar.Brand href="#" className="titleMenu" >contact</Navbar.Brand>
                   
                 <Navbar.Brand href="#">
-                        <img id="iconMenu" src={iconfacebook} alt="logo-facebook"           
+                        <img className="iconMenu" src={iconfacebook} alt="logo-facebook"           
                     />
                 </Navbar.Brand> 
                 <Navbar.Brand href="#">
-                <img id="iconMenu" src={iconInstagram} 
+                <img className="iconMenu" src={iconInstagram} 
                     alt="icone instagram"
                 />
                  </Navbar.Brand>
