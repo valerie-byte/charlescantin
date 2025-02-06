@@ -10,8 +10,8 @@ import Header from './components/header';
 function App() {
   return (
     <div>
-  <Header></Header>
-      {/* <PageAccueil></PageAccueil>  */}
+ 
+      <PageAccueil></PageAccueil> 
      {/* <PageTarif></PageTarif> */}
      {/* <PageGalerie></PageGalerie> */}
      {/* <PageContact></PageContact> */}

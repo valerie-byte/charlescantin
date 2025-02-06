@@ -1,10 +1,12 @@
 
 import '../../styles/presentationComponent.css'
+import { Container } from 'react-bootstrap';
+
 function PresentationComponent () {
     return (
-        <div className='containerPresentationComponent'>
+        <Container className='containerPresentationComponent'>
             <h1 id="titleCharlesCantin">Charles Cantin - Photographe</h1>
-        </div>
+        </Container>
     )
 };
 

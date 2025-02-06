@@ -1,15 +1,33 @@
 .containerPresentationComponent {
-   position:relative;
-   width:100vw;
-   height:100vh;
-   background: url("../images/img_page_accueil.jpg") center/100% no-repeat;
+  height: 100em; 
+   background: url("../images/img_page_accueil.jpg") no-repeat;
 }
 
 #titleCharlesCantin {  
     position:absolute;
-    top:50%;
-    left:40%;
+    top: 40%;
+    left:10%;
     color:red;
     font-family: "alkalami", serif;
     font-size: 40px;
+ }
+
+ /* pour écran taille md 768 on affiche les 4  */
+ @media screen and (min-width:768px){
+   #titleCharlesCantin {  
+      position:absolute;
+      top: 50%;
+      left:30%;
+      color:red;
+      font-family: "alkalami", serif;
+      font-size: 40px;
+   }
+
+   .containerPresentationComponent{
+   width: 100%;
+   height: 100vw;
+   display:flex;
+   
+   }
+  
  }
