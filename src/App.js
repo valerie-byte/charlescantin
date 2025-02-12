@@ -13,8 +13,8 @@ function App() {
  
       {/* <PageAccueil></PageAccueil>  */}
      {/* <PageTarif></PageTarif> */}
-     <PageGalerie></PageGalerie>
-     {/* <PageContact></PageContact> */}
+     {/* <PageGalerie></PageGalerie> */}
+     <PageContact></PageContact>
 
       </div>
   

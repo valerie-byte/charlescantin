@@ -1,56 +1,60 @@
-.presentatPhoto {
+.presentatPhotoLayout{
+    flex-direction: column;
+}
+
+h1.titleGalerieChoice {
+    /* display: none; */
+    visibility: hidden;
+
+}
+
+.optionCategory{
+    font-size: 20px;
+    color:black;
+    font-family: "carme";
+}
+
+#presentatPhoto {
     flex-direction: column;
     display: flex;
-    align-items: start;
-    padding-left:10px;
-  
-} 
+}
+
+h1.titleGalerie{
+    font-size:24px;
+    color:black;
+    font-family: "carme";
+}
 
 #containerImgGrossesse,#containerImgMariage, #containerImgBaby,#containerImgFamille, #containerImgBapt, #containerImgCouple {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-   
-    height:312px
- 
-    
-}    
+}   
 
-.ImgGrossesse, .ImgMariage, .ImgBebe,.ImgFamille, .ImgBapteme, .ImgCouple {
-    width: 90px;  
-    height: 90px; 
-    padding-left: 10px; 
-    padding-top:10px;
-  
-} 
-
-h1.titleGalerie {
-    font-size: 20px;
-    color: #0004DE;
-    font-family: "alkalami", sans-serif;
-    text-align: start;
+.ImgGrossesse,.ImgMariage, .ImgBebe, .ImgFamille, .ImgBapteme, .ImgCouple  {
+    width: 150px;
+    height: 125px;
 }
 
-
-#listCategory {
-    font-family: "carme", sans-serif;
-    font-size: 24px;
-    color:black;
-} 
-
-/* pour écran taille md 768 on affiche les 4  */
-/* @media screen and (min-width:768px){
-	
-    .container {
-        height:150px
+@media  screen and (min-width:768px) {
+    .presentatPhotoLayout{
+        flex-direction: row;
     }
-    #titleMenu{
-        display: flex;
-        visibility:visible;
-        justify-content : space-evenly; 
-        font-size: 32px;
-    } 
-    #titleMenuAccueil {
-        font-size: 32px;
-    } 
-     }  */
+    h1.titleGalerieChoice {
+        font-size: 36px;
+        color:red;
+        font-family: "alkalami", sans-serif;
+    }
+    .optionCategory{
+        font-size: 26px;
+    }
+    h1.titleGalerie{
+        font-size:26px;
+    }
+   
+    .ImgGrossesse,.ImgMariage, .ImgBebe, .ImgFamille, .ImgBapteme, .ImgCouple  {
+        width: 200px;
+        height: 167px;
+    }
+    
+}

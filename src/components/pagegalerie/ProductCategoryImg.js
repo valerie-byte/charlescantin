@@ -28,11 +28,10 @@ import couple4 from "../../images/couple/couple4.jpg"
 import '../../styles/pagegalerie.css'
 
 import { Container } from 'react-bootstrap';
-import { Row } from 'react-bootstrap';
-import { Col } from 'react-bootstrap';
+
 function ProductCategoryImg () {
     return(
-        <Container className="presentatPhoto">
+        <Container className="presentatPhotoLayout">
             <Container className="presentatPhoto">
                 <h1 className='titleGalerie'>grossesse</h1>
                 <Container id="containerImgGrossesse">

@@ -1,0 +1,28 @@
+/* mise en page du formulaire */
+
+h1#titletablecomponent{
+    font-family: "alkalami", serif;
+    font-size:32px;
+    color: red;
+    text-align: center
+}
+
+#contContact{
+    display:flex;
+    flex-direction: column;
+}
+#submit-button {
+    background-color: RGB(0,4,222);
+    color:white;
+    font-size: 20px;
+    font-family: "carme", sans-serif;
+}
+#submit-button:hover {
+    color:red
+}
+
+@media screen and (min-width:768px) {
+    #submit-button {
+        font-size: 26px;
+    }
+}

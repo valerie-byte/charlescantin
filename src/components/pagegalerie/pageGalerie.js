@@ -9,7 +9,7 @@ function PageGalerie () {
         <div>
      
         <Header></Header>
-        <Container className="presentatPhoto">
+        <Container className="presentatPhotoLayout">
 
             <FilterdCategoryTable></FilterdCategoryTable>
             <ProductCategoryImg></ProductCategoryImg>

@@ -1,14 +1,19 @@
 #titletableprestation {
     font-family: "carme", sans-serif;
-    font-size: 26px;
-    color:RGB(0,4,222);
-    padding-top: 30px
+    font-size: 20px;
+    color:RGB(0,4,222)
 }
 
-#titletableprestation>li>div {
+#descriptiontableprestation {
     font-family: "carme", sans-serif;
-    font-size: 24px;
-    color:black;
-    padding-top: 10px
+    font-size: 18px;
 }
 
+@media screen and (min-width:768px ){
+    #titletableprestation {
+        font-size: 26px;
+    }
+    #descriptiontableprestation {
+        font-size: 24px;
+    }
+}
