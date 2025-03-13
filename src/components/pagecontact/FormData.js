@@ -11,8 +11,9 @@ function FormData () {
         alert('vous avez envoyé le formulaire')
     }
     return (
-        <Container >     
-        <form  id="contData" action ={send}>
+        <Container >   
+              {/* utilisation formulaire netlify.form   */}
+        <form  id="contData" action ={send} data-netlify="true" name="contact">
             <label htmlFor="name">Nom</label>
             <input type="text" id="name" name="name" required></input>
             <label htmlFor="surname">Prénom</label>
