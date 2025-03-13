@@ -1,60 +1,89 @@
-.presentatPhotoLayout{
-    flex-direction: column;
-}
-
-h1.titleGalerieChoice {
-    /* display: none; */
-    visibility: hidden;
-
-}
-
-.optionCategory{
-    font-size: 20px;
-    color:black;
-    font-family: "carme";
-}
-
-#presentatPhoto {
-    flex-direction: column;
-    display: flex;
-}
-
-h1.titleGalerie{
-    font-size:24px;
-    color:black;
-    font-family: "carme";
-}
-
-#containerImgGrossesse,#containerImgMariage, #containerImgBaby,#containerImgFamille, #containerImgBapt, #containerImgCouple {
-    display: flex;
+/* container ensemble images */
+ .presentatPhotoLayout{
+    display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-}   
+    padding-left: 10px;
+    gap:10px;
+    list-style: none;
+} 
+/* titre liste des catégories*/
+h1.titleGalerieChoice {
+    color:red;
+    font-size: 20px;
+    font-family: "carme", sans-serif;
+    visibility: visible;
+    text-align: start;
 
-.ImgGrossesse,.ImgMariage, .ImgBebe, .ImgFamille, .ImgBapteme, .ImgCouple  {
-    width: 150px;
-    height: 125px;
+} 
+
+.label {
+    display:flex;
+    flex-direction: row;
 }
 
-@media  screen and (min-width:768px) {
-    .presentatPhotoLayout{
-        flex-direction: row;
-    }
-    h1.titleGalerieChoice {
-        font-size: 36px;
-        color:red;
-        font-family: "alkalami", sans-serif;
-    }
+
+/* titre de l'ensemble des catégories */
+h1.titleGalerie{
+    font-size:20px;
+    color:red;
+    font-family: "carme", sans-serif;
+
+}
+/* image pour le mobile */
+div img {
+    width: 50px;
+    height: 50px
+}
+
+/* titre des images */
+#titleImg {
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+ 
+
+@media  screen and (min-width:768px) { 
+
     .optionCategory{
-        font-size: 26px;
-    }
+        font-size: 20px;
+        color:black;
+        font-family: "carme", sans-serif;
+        border: solid 1px grey;
+        cursor:pointer;
+        padding:5px;
+        width:150px;
+        margin-left:20px;
+        border-radius: 20px;
+    } 
+    .presentatPhotoLayout{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 10px;
+        /* gap:10px */
+    } 
     h1.titleGalerie{
         font-size:26px;
+        padding-top: 10px;
     }
-   
-    .ImgGrossesse,.ImgMariage, .ImgBebe, .ImgFamille, .ImgBapteme, .ImgCouple  {
+    #titleImg {
+        font-size: 20px;
+    }
+  
+
+
+    
+     div img {
         width: 200px;
         height: 167px;
-    }
+        padding-left: 50px;
+      
+    } 
+ 
+  
+   
+ 
     
-}
+} 

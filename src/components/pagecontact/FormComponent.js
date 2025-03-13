@@ -6,7 +6,7 @@ import FormData from './FormData'
 function FormComponent () {
     return (
         <Container id="contContact">   
-            <h1 id ="titletablecomponent"> Formulaire de contact</h1>
+            <h1 id ="titletableformulaire">Formulaire de contact</h1>
             <FormData></FormData>
             
         </Container>

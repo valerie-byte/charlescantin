@@ -1,6 +1,6 @@
 
 import TableDescription from "./Tabledescription";
-import '../../styles/tableComponent.css'
+import '../../styles/formComponent.css'
 
 function TableComponent () {
     return(

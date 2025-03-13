@@ -1,3 +1,5 @@
+import '../../styles/tabledescription.css'
+
 const tableprestations = [
     {id:1, title:"juste moi", price:"130 euros", description:"Séance pour une personne, en extérieur ou en studio"},
     {id:2, title:"pour deux", price:"195 euros", description:"Pour deux personnes, en extérieur ou en studio"},

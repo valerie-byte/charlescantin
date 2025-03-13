@@ -1,19 +1,41 @@
-#titletableprestation {
-    font-family: "carme", sans-serif;
-    font-size: 20px;
-    color:RGB(0,4,222)
-}
+h1#titletablecomponent {
+    font-family: "alkalami", serif;
+    font-size:32px;
+    color: red;
+    text-align: center
 
-#descriptiontableprestation {
+}
+li#titletableprestation {
     font-family: "carme", sans-serif;
     font-size: 18px;
+    color:RGB(0,4,222);
+    padding-left:20px;
+    text-transform: uppercase;
+    padding-top:10px
+}
+
+b#descriptiontableprestation {
+    font-family: "carme", sans-serif;
+    font-size: 18px;
+    color:black;
+    padding-top:20px;
+    list-style: none;
+    text-transform: lowercase;
+    
+}
+p::first-letter {
+    text-transform: uppercase;
+    
 }
 
 @media screen and (min-width:768px ){
-    #titletableprestation {
+    h1#titletablecomponent {
+        font-size: 40px;
+    }
+    li#titletableprestation {
         font-size: 26px;
     }
-    #descriptiontableprestation {
+    b#descriptiontableprestation {
         font-size: 24px;
     }
-}
+} 

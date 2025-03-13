@@ -15,12 +15,8 @@
  /* pour écran taille md 768 on affiche les 4  */
  @media screen and (min-width:768px){
    #titleCharlesCantin {  
-      position:absolute;
       top: 50%;
       left:30%;
-      color:red;
-      font-family: "alkalami", serif;
-      font-size: 40px;
    }
 
    .containerPresentationComponent{

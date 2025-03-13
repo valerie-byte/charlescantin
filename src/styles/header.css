@@ -7,12 +7,7 @@
 	background-color : rgb(206,206,206); 
 }  
 
-img.menuBurger {
-	height: 30px;
-	width: 30px;
-	padding-left:10px;
-	padding-top:20px
-}
+
 img#logoMenu {
 	height:24px;
 	width: 38px;
@@ -20,15 +15,7 @@ img#logoMenu {
 	padding-left:10px;
 
 }
-#titleMenuAccueil {
-	font-family: "Allerta", serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 18px;
-	color:black;
-	padding-top:20px;
-	padding-left:10px;
-}
+
 .titleMenu { 
 	font-family: "Allerta", serif;
 	font-weight: 400;
@@ -36,9 +23,12 @@ img#logoMenu {
 	font-size: 18px;
 	color:black;
 	padding-top:20px;
-	/* padding-left:10px; */
-	display:none
-	/* visibility:hidden */
+	padding-left:10px;
+	display:none;
+	text-decoration: underline;
+  }
+  .titleMenu:focus{
+	text-decoration: underline;
   }
 
   img.iconMenu {
@@ -47,20 +37,58 @@ img#logoMenu {
 	padding-top:20px
 
   }
+  /* menu burger */
+  .menuBurger {
+	width:50px;
+	height:50px;
+	background-color : rgb(240, 234, 234);
+  }
+  .listemenuBurger {
+	background-color: black;
+  }
+ .navbar-item {
+	list-style:none;
+	border: solid 1px grey;
+  }
+.navbar-option {
+	font-size:22px;
+	color: white;
+	
+}
+  
+
+
+  .navbar-item :hover{
+	background-color:red
+}
+
+  .navbar-item :active{
+	color:red
+
+  } 
+
 /* pour écran taille md 768 on affiche les 4  */
  @media screen and (min-width:768px){
 	
-.container {
-	height:150px
-}
-.titleMenu{
-	display: flex;
-	visibility:visible;
-	justify-content : space-evenly; 
-	font-size: 32px;
-	padding-left: 10px;
-} 
-#titleMenuAccueil {
-	font-size: 32px;
-}
+	img.menuBurger{
+		display:none
+	}
+	img#logoMenu {
+		height:85px;
+		width: 179px	
+	}
+	img.iconMenu {
+		height:50px;	
+	  }
+	.containerHeader {
+		height:150px;
+		justify-content : space-evenly; 
+	}
+	.titleMenu{
+		display: flex;
+		visibility:visible;
+		font-size: 32px;
+		padding-left: 10px;
+	} 
+
  } 

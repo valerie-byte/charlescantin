@@ -1,19 +1,19 @@
 import Header from "../header";
 import '../../styles/pagegalerie.css'
-import FilterdCategoryTable from './FilterdCategoryTable'
-import ProductCategoryImg from "./ProductCategoryImg"
+import FilterdCategoryTable2 from './FilterdCategoryTable2'
 import { Container } from 'react-bootstrap';
+
 
 function PageGalerie () {
     return(
         <div>
      
         <Header></Header>
-        <Container className="presentatPhotoLayout">
+        <Container className="">
 
-            <FilterdCategoryTable></FilterdCategoryTable>
-            <ProductCategoryImg></ProductCategoryImg>
-            
+            <FilterdCategoryTable2></FilterdCategoryTable2>
+       
+      
         </Container>
         </div>
 

@@ -1,0 +1,44 @@
+
+
+
+@media screen and(max-width:768px) {
+    .navbar-options {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position:fixed;
+        bottom:0;
+        height:100vh;
+        padding:2rem;
+        background-color: gray;
+        visibility: hidden;
+    }
+
+    img.menuBurger {
+        height: 30px;
+        width: 30px;
+        padding-left:10px;
+        padding-top:20px;
+        
+    }
+    
+    .show-nav .navbar-options {
+        left: 0;
+        width:100vw;
+        visibility: visible;
+    }
+    .hide-nav {
+        visibility: hidden;
+    }
+
+    .navbar-option {
+        display:block;
+        padding:1.5rem;
+        font-size:24px;
+        list-style: none;
+        color: rgb(0,4,222);
+        font-size:20px;
+        background-color: grey;
+    
+    }
+}

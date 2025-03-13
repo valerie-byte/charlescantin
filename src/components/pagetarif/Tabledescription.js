@@ -4,25 +4,25 @@ import tableprestations from './data'
 // import styled from 'styled-components'
 
 export default function TableDescription () {
+
     const table = tableprestations.map(table => 
-    <li key={table.id} >
-        {table.title}
-        ........................................................
+    
+        <li key={table.id} id="titletableprestation">
+        "{table.title}"
+        ......................
         {table.price}
-        <div>
-            {table.description}
-        </div>
-    </li>
-    )  
+        <p>      
+        <b id="descriptiontableprestation">{table.description}</b>
+        </p>
+        </li>
+    
+    ) 
+    
+   
    
     return (
         <div>
-       <ul>
-            <li id="titletableprestation">{table}</li>
-           
-            
-       
-        </ul>
+            {table}                    
        
         </div>
 
